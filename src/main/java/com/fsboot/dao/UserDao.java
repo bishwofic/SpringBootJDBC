@@ -3,11 +3,8 @@ package com.fsboot.dao;
 import com.fsboot.dto.UserDto;
 import com.fsboot.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.EmptyResultDataAccessException;
-import org.springframework.data.repository.query.Param;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-
 
 import javax.sql.DataSource;
 import java.util.List;

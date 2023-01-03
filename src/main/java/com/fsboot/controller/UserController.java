@@ -1,8 +1,5 @@
 package com.fsboot.controller;
 
-import com.fsboot.dao.UserDao;
-import com.fsboot.dto.UserDto;
-import com.fsboot.entities.User;
 import com.fsboot.service.UserServiceDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
